@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Public route
-app.get("/", (req, res) => {
+app.get("/api/health", (req, res) => {
     res.status(200).json({ message: "Welcome to the server!" });
 });
 if(ENV.NODE_ENV==="production") {

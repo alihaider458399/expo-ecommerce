@@ -13,15 +13,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alihaider458399/expo-ecommerce.git",
-    "accountId": "eb0b515f-c1a3-4e38-a5d3-74f9859e96f1"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alihaider458399/expo-ecommerce.git&quot;,
+    &quot;accountId&quot;: &quot;eb0b515f-c1a3-4e38-a5d3-74f9859e96f1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -74,7 +74,7 @@
       <updated>1768410892295</updated>
       <workItem from="1768410893623" duration="3323000" />
       <workItem from="1768671886223" duration="7812000" />
-      <workItem from="1768930812979" duration="19579000" />
+      <workItem from="1768930812979" duration="21526000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
