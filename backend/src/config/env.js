@@ -10,5 +10,6 @@ export const ENV = {
     INNGEST_SIGNING_KEY: process.env.INNGEST_SIGNING_KEY,
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
     CLERK_PUBLISHABLE_KEY: process.env.CLERK_PUBLISHABLE_KEY,
-    MONGO_URL: process.env.MONGO_URL
+    MONGO_URL: process.env.MONGO_URL,
+    ADMIN_URL: process.env.ADMIN_EMAIL,
 }

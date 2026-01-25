@@ -45,7 +45,7 @@ const updateUser = inngest.createFunction(
         const {id,first_name, last_name, image_url} = event.data;
     await User.findOneAndUpdate({
         clerkId:id,
-        first_name:`${first_name || ""} ${last_name || ""}` || "User",
+        name:`${first_name || ""} ${last_name || ""}` || "User",
         imageUrl:image_url || '',
     })
     }
