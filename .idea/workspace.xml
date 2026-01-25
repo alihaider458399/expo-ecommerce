@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc28fc7-4211-432f-9ebd-3e62f6f2feee" name="Changes" comment="admin routes added">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/dist/assets/index-CY4OzZEJ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/dist/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/middleware/auth.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/auth.middleware.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <workItem from="1768930812979" duration="24168000" />
       <workItem from="1769060215637" duration="8804000" />
       <workItem from="1769188494096" duration="9006000" />
-      <workItem from="1769355731859" duration="6138000" />
+      <workItem from="1769355731859" duration="6381000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -125,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769361383957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="admin routes added">
+      <option name="closed" value="true" />
+      <created>1769362231261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769362231261</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

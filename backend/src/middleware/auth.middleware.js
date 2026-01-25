@@ -15,7 +15,7 @@ export const protectRoute = [
 
     const user = await User.findOne({clerkId})
         if(!user){
-            res.status(404).json({message:"User not found"});
+           return res.status(404).json({message:"User not found"});
         }
 
         req.user = user;
@@ -30,7 +30,7 @@ export const protectRoute = [
 ];
 
 export const adminOnly = (req, res, next) => {
-    if(req.user) {
+    if(!req.user) {
         return res.status(401).json({message:"Unauthorized - user not found"});
     }
 if(req.user.email !== ENV.ADMIN_EMAIL) {
