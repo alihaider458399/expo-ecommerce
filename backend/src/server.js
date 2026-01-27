@@ -8,6 +8,7 @@ import { inngest, functions } from "./config/inngest.js";
 import * as path from "node:path";
 import adminRoutes from "./routes/admin.route.js";
 import userRoutes from "./routes/user.route.js";
+import orderRoute from "./routes/order.route.js";
 
 // Load environment variables
 dotenv.config();
@@ -43,6 +44,7 @@ app.use(
 );
 app.use("/api/admin",adminRoutes)
 app.use("/api/users",userRoutes)
+app.use("/api/orders",orderRoute)
 
 // Start server only after DB connection
 const startServer = async () => {
