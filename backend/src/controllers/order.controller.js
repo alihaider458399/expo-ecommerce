@@ -38,7 +38,8 @@ export const createOrder = async (req, res) => {
         }
         res.status(201).json({message: 'Order successfully created', order})
     } catch (error) {
-        return res.status(400).json({error: "Insufficient stock"})
+        console.error("Error creating order", err)
+        res.status(500).json({message:"Internal Server Error"})
     }
 }
 
@@ -62,5 +63,8 @@ export const getUserOrders = async (req, res) => {
 
         res.status.json({orders: ordersWithReviewStatus});
     }
-    catch (err) {}
+    catch (err) {
+        console.error("Error fetching user orders", err)
+        res.status(500).json({message:"Internal Server Error"})
+    }
 }
