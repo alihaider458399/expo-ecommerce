@@ -9,6 +9,8 @@ import * as path from "node:path";
 import adminRoutes from "./routes/admin.route.js";
 import userRoutes from "./routes/user.route.js";
 import orderRoute from "./routes/order.route.js";
+import productRoute from "./routes/product.route.js";
+import reviewRoute from "./routes/review.route.js";
 
 // Load environment variables
 dotenv.config();
@@ -45,6 +47,8 @@ app.use(
 app.use("/api/admin",adminRoutes)
 app.use("/api/users",userRoutes)
 app.use("/api/orders",orderRoute)
+app.use("/api/products",productRoute)
+app.use("/api/review",reviewRoute)
 
 // Start server only after DB connection
 const startServer = async () => {
