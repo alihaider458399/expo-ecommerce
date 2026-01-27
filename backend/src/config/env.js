@@ -12,4 +12,5 @@ export const ENV = {
     CLERK_PUBLISHABLE_KEY: process.env.CLERK_PUBLISHABLE_KEY,
     MONGO_URL: process.env.MONGO_URL,
     ADMIN_URL: process.env.ADMIN_EMAIL,
+    CLIENT_URL: process.env.CLIENT_URL,
 }

@@ -4,6 +4,7 @@ import { clerkMiddleware } from "@clerk/express";
 import { serve } from "inngest/express";
 import {ENV} from "./config/env.js";
 import { connectDB } from "./config/db.js";
+import cors from "cors"
 import { inngest, functions } from "./config/inngest.js";
 import * as path from "node:path";
 import adminRoutes from "./routes/admin.route.js";
@@ -21,6 +22,7 @@ const PORT = process.env.PORT || 3000;
 
 // Global middlewares
 app.use(express.json());
+app.use(cors({origin:ENV.CLIENT_URL, credentials: true}));
 
 // Public route
 app.get("/api/health", (req, res) => {
