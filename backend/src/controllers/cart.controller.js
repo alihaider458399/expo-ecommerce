@@ -43,7 +43,7 @@ export const addToCart = async (req, res) => {
             })
 
             //     check if item already in cart
-            const existingItem = cart.items.find(item => items.product.toString() === productId);
+            const existingItem = cart.items.find(item => item.product.toString() === productId);
             //     increment quantity
             const newQuantity = existingItem.quantity + 1;
             if (product.stock < newQuantity) {
